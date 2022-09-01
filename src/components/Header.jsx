@@ -13,9 +13,6 @@ const Header = () =>{
         <li>
         <a href="https://github.com/HiraPee"><TwitterIcon></TwitterIcon></a>
         </li>
-        <li>
-          <a href="#">入れたいね</a>
-        </li>
       </ul>
     </nav>
 
@@ -32,7 +29,7 @@ const Header = () =>{
         <Link to="/skill">PRODUCTION & SKILLS</Link>
         </li>
         <li>
-          <a href="https://github.com/HiraPee">PROFILES</a>
+        <Link to="/about">ABOUT</Link>
         </li>
       </ul>
     </nav>
