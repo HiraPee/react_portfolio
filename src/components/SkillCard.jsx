@@ -10,7 +10,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 const SkillCard = () => {
   return (
     <>
-    <Card sx={{width:1200,height:800 }} >
+    <Card sx={{width:1200 }} >
       <CardContent>
         <Typography align='center' sx={{ fontSize: 70 }}>  <a href="https://github.com/HiraPee"><GitHubIcon></GitHubIcon></a> SKILLS  </Typography>
 
@@ -22,6 +22,10 @@ const SkillCard = () => {
 
         <Typography align='center' sx={{fontSize: 40  }} > Java  </Typography>
         <Typography align='center'>  <SkillJavaCard></SkillJavaCard>  </Typography>
+
+        <Typography align='center' sx={{ fontSize: 70 }}> 制作物  </Typography>
+        <Typography align='center'  >  <ProductDiaryWordCloud ></ProductDiaryWordCloud> </Typography>
+        <Typography align='center'  >  <ProductPortfolio ></ProductPortfolio></Typography>
 
       </CardContent>
     </Card>
@@ -81,7 +85,7 @@ const SkillJavaCard = () => {
       <Grid item xs={3}>
         <Card sx={{width:400,height:150 }} >
           <CardContent>
-            <Typography  align='center' sx={{fontSize: 20  }} > 初めて触った言語,学部の授業で使用.勉強の一環で人狼やブラックジャックを作成   </Typography>
+            <Typography  align='center' sx={{fontSize: 20  }} > 初めて触った言語,学部の授業で使用.勉強の一環で人狼やブラックジャックを作成してた   </Typography>
           </CardContent>
         </Card>
       </Grid>
@@ -90,5 +94,48 @@ const SkillJavaCard = () => {
   </>
   )
 }
+
+
+const ProductDiaryWordCloud = () => {
+  return (
+    <>
+    <Grid container spacing={0} >
+
+      <Grid item xs={1}> </Grid>
+
+      <Grid item xs={3}>
+        <Card sx={{width:1000,height:150 }} >
+          <CardContent>
+            <Typography  align='center' sx={{fontSize: 20  }} >  <a href="https://github.com/HiraPee/word_cloud_diary"><GitHubIcon></GitHubIcon></a>  WordCloudと日記を掛け合わせたアプリ  <br />使用技術:Python,Django,Docker,HTML,CSS,SQLite3   </Typography>
+          </CardContent>
+        </Card>
+      </Grid>
+
+    </Grid>
+  </>
+  )
+}
+
+
+const ProductPortfolio = () => {
+  return (
+    <>
+    <Grid container spacing={0} >
+
+      <Grid item xs={1}> </Grid>
+
+      <Grid item xs={3}>
+        <Card sx={{width:1000,height:150 }} >
+          <CardContent>
+            <Typography  align='center' sx={{fontSize: 20  }} >  <a href="https://github.com/HiraPee/react_portfolio"><GitHubIcon></GitHubIcon></a>  本ポートフォリオサイト,初めてのReact  <br />使用技術:ReactJS,React Material UI,HTML,CSS   </Typography>
+          </CardContent>
+        </Card>
+      </Grid>
+
+    </Grid>
+  </>
+  )
+}
+
 
 export default SkillCard
