@@ -3,7 +3,6 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import skillicon from '../imgs/skill.png'
 import qiitaIcon from '../imgs/qiita.png'
 import {Link} from "react-router-dom"
 

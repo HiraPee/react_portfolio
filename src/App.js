@@ -8,10 +8,10 @@ import AboutPage from './components/AboutPage';
 import {BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
-    <Router basename={"https://dev-yakuza-org.github.io/portfolio"}>
+    <Router basename={"https://HiraPee.github.io/portfolio"}>
     <div className="App">
     <Header />
-      <Routes>
+      <Routes >
         <Route path="/" element={<HomePage/>}/>
         <Route path="/skill" element={<SkillPage/>}/>
         <Route path="/about" element={<AboutPage/>}/>
