@@ -9,7 +9,7 @@ import './css/HomePage.css'
 
 export default function HomeCard() {
   return (
-    <Card sx={{ maxWidth: 360 }} >
+    <Card sx={{ maxWidth: 430 ,height: 800 }} >
       <CardContent>
         <Typography sx={{ fontSize: 50 }} color="text.secondary" gutterBottom>
           初めまして!!
@@ -22,6 +22,8 @@ export default function HomeCard() {
           近畿大学大学院 修士課程
           <br />
           {'2024年3月修了予定'}
+          <br /> 好きな食べ物:焼き鳥,ミルクレープ
+          <br /> 好きな言葉: 情けは人のためならず
         </Typography>
       </CardContent>
     </Card>
