@@ -17,6 +17,9 @@ const SkillCard = () => {
         <Typography align='center' sx={{fontSize: 40  }} >  Python   </Typography>
         <Typography align='center'  >  <SkillPythonCard></SkillPythonCard>   </Typography>
 
+        <Typography align='center' sx={{fontSize: 40  }} >  C++   </Typography>
+        <Typography align='center'  >  <SkillCplusCard></SkillCplusCard>   </Typography>
+
         <Typography align='center' sx={{fontSize: 40  }} >  React   </Typography>
         <Typography align='center'>  <SkillReactCard></SkillReactCard>   </Typography>
 
@@ -43,9 +46,29 @@ const SkillPythonCard = () => {
       <Grid item xs={4}> </Grid>
 
       <Grid item xs={3}>
+        <Card sx={{width:400 }} >
+          <CardContent>
+            <Typography  align='center' sx={{fontSize: 20  }} >  研究や競技プログラミングで使用.初めてやりたいと思った言語なので好き <br/> 使い慣れてるという理由で大抵こいつで色々してる  </Typography>
+          </CardContent>
+        </Card>
+      </Grid>
+
+    </Grid>
+  </>
+  )
+}
+
+const SkillCplusCard = () => {
+  return (
+    <>
+    <Grid container spacing={0} >
+
+      <Grid item xs={4}> </Grid>
+
+      <Grid item xs={3}>
         <Card sx={{width:400,height:120 }} >
           <CardContent>
-            <Typography  align='center' sx={{fontSize: 20  }} >  研究や競技プログラミングで使用.初めてやりたいと思った言語なので好き   </Typography>
+            <Typography  align='center' sx={{fontSize: 20  }} >  競技プログラミングのサブウェポン,完璧に使いこなせるようになれば競プロのメイン言語にしたい. </Typography>
           </CardContent>
         </Card>
       </Grid>
@@ -106,7 +129,7 @@ const ProductDiaryWordCloud = () => {
       <Grid item xs={3}>
         <Card sx={{width:1000,height:150 }} >
           <CardContent>
-            <Typography  align='center' sx={{fontSize: 20  }} >  <a href="https://github.com/HiraPee/word_cloud_diary"><GitHubIcon></GitHubIcon></a>  WordCloudと日記を掛け合わせたアプリ  <br />使用技術:Python,Django,Docker,HTML,CSS,SQLite3   </Typography>
+            <Typography  align='center' sx={{fontSize: 20  }} >  <a href="https://github.com/HiraPee/word_cloud_diary"><GitHubIcon></GitHubIcon></a>  WordCloudと日記を掛け合わせたアプリ  <br />使用技術:Python,Django,HTML,CSS,SQLite3,Docker   </Typography>
           </CardContent>
         </Card>
       </Grid>
@@ -127,7 +150,7 @@ const ProductPortfolio = () => {
       <Grid item xs={3}>
         <Card sx={{width:1000,height:150 }} >
           <CardContent>
-            <Typography  align='center' sx={{fontSize: 20  }} >  <a href="https://github.com/HiraPee/react_portfolio"><GitHubIcon></GitHubIcon></a>  本ポートフォリオサイト,初めてのReact  <br />使用技術:ReactJS,React Material UI,HTML,CSS   </Typography>
+            <Typography  align='center' sx={{fontSize: 20  }} >  <a href="https://github.com/HiraPee/react_portfolio"><GitHubIcon></GitHubIcon></a>  本ポートフォリオサイト,初めてのReact  <br />使用技術:ReactJS,React Material UI,HTML,CSS,Docker   </Typography>
           </CardContent>
         </Card>
       </Grid>
