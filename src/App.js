@@ -8,7 +8,11 @@ import AboutPage from './components/AboutPage';
 import {BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
+<<<<<<< HEAD
     <Router >
+=======
+    <Router basename={"https://hirapee.github.io/portfolio"}>
+>>>>>>> ca0a6f9
     <div className="App">
     <Header />
       <Routes >
