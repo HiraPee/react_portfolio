@@ -11,7 +11,7 @@ const Header = () =>{
         <a href="https://github.com/HiraPee"><GitHubIcon></GitHubIcon></a>
         </li>
         <li>
-        <a href="https://github.com/HiraPee"><TwitterIcon></TwitterIcon></a>
+        <a href="https://twitter.com/hori_hira_y"><TwitterIcon></TwitterIcon></a>
         </li>
       </ul>
     </nav>
