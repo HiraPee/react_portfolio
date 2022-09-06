@@ -1,18 +1,17 @@
 import React from "react" ;
 import {Link} from "react-router-dom"
+import GitHubIcon from '@mui/icons-material/GitHub';
+import TwitterIcon from '@mui/icons-material/Twitter';
 
 const Header = () =>{
   return (<header>
     <nav>
       <ul>
         <li>
-          <Link to="/">ここに</Link>
+        <a href="https://github.com/HiraPee"><GitHubIcon></GitHubIcon></a>
         </li>
         <li>
-        <Link to="/skill">githubとかのリンク</Link>
-        </li>
-        <li>
-          <a href="#">入れたいね</a>
+        <a href="https://github.com/HiraPee"><TwitterIcon></TwitterIcon></a>
         </li>
       </ul>
     </nav>
@@ -30,7 +29,7 @@ const Header = () =>{
         <Link to="/skill">PRODUCTION & SKILLS</Link>
         </li>
         <li>
-          <a href="https://github.com/HiraPee">PROFILES</a>
+        <Link to="/about">ABOUT</Link>
         </li>
       </ul>
     </nav>
